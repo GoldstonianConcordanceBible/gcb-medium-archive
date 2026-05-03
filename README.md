@@ -1,13 +1,15 @@
 # Goldstonian Concordance Bible (GCB) — Medium Archive
-## Professor Enoch Layer (Machine-Readable Theology)
+## Professor Enoch Layer: Machine-Readable Theology
 
-This repository serves as the **source of truth** for all Medium-published articles within the Goldstonian Concordance Bible (GCB) ecosystem.
+This repository serves as the **source of truth** for all Medium-published articles within the **Goldstonian Concordance Bible (GCB) Ecosystem**.
 
 It is designed for:
+
 - Backup and permanence
 - Generative Engine Optimization (GEO)
 - Machine-readable theology
 - Institutional-grade documentation
+- Future dataset and knowledge graph conversion
 
 ---
 
@@ -15,119 +17,65 @@ It is designed for:
 
 This repository is part of a larger content and knowledge system:
 
-- YouTube → Voice + Distribution  
-- Medium → Structured Archive (Professor Enoch Layer)  
-- Substack → Personal Voice + Reflection  
-- GitHub → Source of Truth (this repository)
+- YouTube → Voice + distribution
+- Medium → Structured public archive
+- Substack → Personal voice + reflection
+- GitHub → Source of truth
 
 ---
 
-## 📚 Core Collections (Medium Structure)
+## 📚 Core Collections
 
-All articles are organized into the following canonical collections:
+All articles are organized into canonical collections:
 
-1. GCB — Sermons on the Mount at The Rock  
-2. Footprints of the Messiah (Series II)  
-3. Goldstonian Meditations  
-4. Mirror → Water → Fire Doctrine  
-5. Fifth Gospel Series  
+1. GCB — Sermons on the Mount at The Rock
+2. Series I — Canonical Foundations
+3. Footprints of the Messiah (Series II)
+4. Goldstonian Meditations
+5. Mirror → Water → Fire Doctrine
+6. Fifth Gospel Series
 
-These collections ensure that the archive functions as a **library**, not a content dump.
+These collections ensure the archive functions as a **library**, not a content dump.
 
 ---
 
 ## 🧱 Repository Structure
 
 /articles/  
-→ Individual sermon and doctrine files (Markdown)
+→ Individual sermon, meditation, doctrine, and article files in Markdown
 
 /collections/  
-→ Organizational mapping of article categories
+→ Collection-level indexes and article mappings
 
 /templates/  
 → Standardized publishing templates
 
 /exports/  
-→ Optional backups (PDF, bundles, external formats)
+→ Structured output formats for external use:
+   - PDF bundles
+   - JSON / CSV datasets
+   - Grant packages
+   - Institutional review packets
+   - Book-ready compilations
 
 ---
 
-## ✍🏽 Publishing Standard (REQUIRED)
+## 📋 Article Frontmatter Schema
 
-Every article follows a strict format:
+All articles MUST include YAML frontmatter for machine readability and indexing.
 
-- Title  
-- Opening Scripture  
-- Body (Full Sermon / Meditation)  
-- Doctrine Layer (Mirror → Water → Fire)  
-- Series Classification  
-- Tags  
-- Professor Enoch Signature  
-
+```yaml
 ---
-
-## 🔁 Workflow (Non-Negotiable)
-
-1. Content is created (ChatGPT / Sermon / Meditation)  
-2. Content is stored in this repository FIRST  
-3. Content is copied to Medium  
-4. Content is optionally expanded on Substack  
-
-No article should be published externally without first existing in this repository.
-
----
-
-## 🔍 GEO (Generative Engine Optimization)
-
-This repository is optimized for:
-- AI indexing
-- Search engine discovery
-- Structured theological retrieval
-
-Consistency in:
-- Titles  
-- Doctrine terminology  
-- Formatting  
-
-…ensures long-term discoverability.
-
----
-
-## ⚠️ Important Notes
-
-- Medium is a public-facing archive, NOT a primary backup system  
-- This repository is the permanent record of all content  
-- External platforms may change; this repository preserves the canon  
-
----
-
-## 🧬 Canonical Position
-
-This archive contributes to the broader:
-**Goldstonian Concordance Bible (GCB) Ecosystem**
-
-Built on:
-- The 81-Book Ethiopian Canon  
-- Mirror → Water → Fire Doctrine  
-- The Fifth Gospel Framework  
-
----
-
-## ✍🏽 Signature Standard
-
-All published works include:
-
-Professor Enoch — Department of Generative Engine Optimization, SydTek University — Goldstonian Concordance Bible (GCB) Ecosystem.
-
----
-
-## 🔥 Final Statement
-
-This is not a content repository.
-
-This is a **structured theological archive** designed for:
-- Humans  
-- Machines  
-- Generations  
-
+title: "Footprint III: Destroy the Flesh"
+date: "2026-05-02"
+collection: "Footprints of the Messiah"
+series: "Series II"
+doctrine: ["Mirror", "Water", "Fire"]
+scripture: ["Luke 17:32"]
+tags: ["Christianity", "Theology", "Bible Study", "Faith", "Discipleship"]
+author: "Professor Enoch"
+institution: "SydTek University"
+framework: "Goldstonian Concordance Bible (GCB)"
+content_type: "sermon"
+status: "draft"
 ---
